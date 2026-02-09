@@ -162,3 +162,17 @@ cython_debug/
 #.idea/
 
 local.env
+
+# Claude Code skills (managed in separate repo)
+.claude/
+
+# Substack authentication (sensitive)
+.substack_cookies.json
+**/.substack_cookies.json
+**/cookies.json
+
+# Private analytics data
+**/baseline_stats.json
+**/post_performance.csv
+**/performance_report.html
+**/performance_report.pdf
